@@ -10,3 +10,111 @@ body {
     box-sizing: border-box;
 }
 
+.form-container {
+    max-width: 40%;
+    margin: 10rem auto;
+    box-shadow:  0 .1rem .5rem 0 rgba(0,0,0,0.5);
+    padding: 2rem;
+    padding-bottom: 4rem;
+    border-radius: 1rem;
+    background-color: #eee;
+}
+
+form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+
+input {
+    font-size: 2rem;
+    padding: 1rem;
+    height: 5rem;
+    width: 100%;
+    outline: none;
+    border-radius: 1rem;
+    padding-left: 4rem;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid transparent;
+    background-color: #ffff;
+}
+
+.form-group input:hover {
+   background-color: rgb(253, 244, 244);
+   /* border-bottom: transparent; */
+}
+
+.form-group input:invalid {
+    border-bottom: 1px solid green;
+}
+
+.form-group input:focus {
+    background-color: #ffff;
+}
+
+.learn {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn {
+    height: 5rem;
+    outline: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #ffff;
+}
+
+.btn:hover {
+    background-color: rgb(253, 244, 244);
+}
+
+.btn:active {
+    background-color: rgb(202, 199, 199);
+}
+
+.sign {
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 2.5rem;
+    margin-top: 3.5rem;
+}
+
+.anchor {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffff;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    color: black;
+}
+
+.icon {
+    position: absolute;
+    top: 9px;
+    padding-left: 5px;
+    padding: 4px;
+    height: 3rem;
+}
+
+
+.icon-eye {
+    right: 9px;
+}
+
+.icon, .form-conatainer input {
+    display: inline-block;
+}
