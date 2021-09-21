@@ -10,7 +10,7 @@ body {
     box-sizing: border-box;
 }
 
-.form-container {
+.form-container, .form-container1 {
     max-width: 40%;
     margin: 10rem auto;
     box-shadow:  0 .1rem .5rem 0 rgba(0,0,0,0.5);
@@ -26,36 +26,48 @@ form {
 
 .form-group {
     margin-bottom: 2rem;
+    /* position: relative; */
+}
+
+.input1 i {
+    position: absolute;
+    left: 15px;
+    padding-top: 15px;
+    font-size: 2rem;
+    color: rgb(216, 216, 216);
+}
+
+.input1 {
     position: relative;
 }
 
 
-input {
+.space, .type {
     font-size: 2rem;
     padding: 1rem;
     height: 5rem;
     width: 100%;
     outline: none;
     border-radius: 1rem;
-    padding-left: 4rem;
+    padding-left: 5rem;
     margin: 0 auto;
     border: none;
     border-bottom: 1px solid transparent;
     background-color: #ffff;
 }
 
-.form-group input:hover {
-   background-color: rgb(253, 244, 244);
+.form-group .space:hover {
+   background-color: rgb(251, 251, 255);
    /* border-bottom: transparent; */
 }
-
-.form-group input:invalid {
+/* 
+.form-group .space:invalid {
     border-bottom: 1px solid green;
 }
 
-.form-group input:focus {
+.form-group .space:focus {
     background-color: #ffff;
-}
+} */
 
 .learn {
     font-size: 4rem;
@@ -78,7 +90,7 @@ input {
 }
 
 .btn:hover {
-    background-color: rgb(253, 244, 244);
+    background-color: rgb(251, 251, 255);
 }
 
 .btn:active {
@@ -102,10 +114,17 @@ input {
     color: black;
 }
 
-.icon {
+.anchor:hover {
+    background-color: rgb(251, 251, 255);
+}
+
+.anchor:active {
+    background-color: rgb(202, 199, 199);
+}
+
+/* .icon {
     position: absolute;
     top: 9px;
-    padding-left: 5px;
     padding: 4px;
     height: 3rem;
 }
@@ -117,4 +136,111 @@ input {
 
 .icon, .form-conatainer input {
     display: inline-block;
+} */
+
+
+
+
+
+
+
+
+.form-container1 {
+    max-width: 800px;
+}
+
+.register {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.student {
+    padding: 2rem;
+}
+
+.student label {
+    font-size: 2rem;
+    width: 40%;
+    text-transform: uppercase;
+
+}
+
+.student .form-group {
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.label, .input {
+    float: left;
+    line-height: 5rem;
+    /* width: 50%; */
+}
+
+.label {
+    width: 40%;
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.input {
+    width: 60%;
+    position: relative;
+}
+
+.input i {
+    position: absolute;
+    left: 15px;
+    padding-top: 15px;
+    font-size: 2rem;
+    color: rgb(216, 216, 216);
+}
+
+.type {
+    width: 89%;
+    /* font-size: 3rem; */
+}
+
+select {
+    width: 29%;
+    height: 3rem;
+    font-size: 2rem;
+    padding-right: 3rem;
+    outline: none;
+    font-weight: lighter;
+    border-radius: 1rem;
+    border: none;
+}
+
+.radio {
+     height: 3rem; 
+    font-size: 3rem;
+}
+
+span {
+    font-size: 2rem;
+    padding-right: 5rem;
+} 
+
+.fill {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn-tertiary {
+    width: 90%;
+    margin: 2rem 3rem;
+    text-align: center;
+}
+
+.form-container1 .type:hover {
+    background-color: rgb(251, 251, 255);
+    /* border-bottom: transparent; */
+ }
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
 }
