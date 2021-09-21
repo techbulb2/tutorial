@@ -104,7 +104,7 @@ form {
     margin-top: 3.5rem;
 }
 
-.anchor {
+.anchor, .anchor1{
     text-decoration: none;
     text-transform: uppercase;
     background-color: #ffff;
@@ -114,11 +114,39 @@ form {
     color: black;
 }
 
+.anchor1 {
+    font-size: 2rem;
+    /* width: 800px; */
+    padding: 1.5rem 29rem;
+    text-align: center;
+    /* margin-left: 3rem; */
+    /* margin-right: 3rem; */
+}
+
+.para {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    /* padding: 0 3rem; */
+    max-width: 750px;
+}
+
 .anchor:hover {
     background-color: rgb(251, 251, 255);
 }
 
 .anchor:active {
+    background-color: rgb(202, 199, 199);
+}
+
+
+
+.anchor1:hover {
+    background-color: rgb(251, 251, 255);
+}
+
+
+
+.anchor1:active {
     background-color: rgb(202, 199, 199);
 }
 
@@ -228,11 +256,11 @@ span {
     text-align: center;
 }
 
-.btn-tertiary {
+/* .btn-tertiary {
     width: 90%;
     margin: 2rem 3rem;
     text-align: center;
-}
+} */
 
 .form-container1 .type:hover {
     background-color: rgb(251, 251, 255);
