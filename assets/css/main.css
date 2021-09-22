@@ -150,29 +150,6 @@ form {
     background-color: rgb(202, 199, 199);
 }
 
-/* .icon {
-    position: absolute;
-    top: 9px;
-    padding: 4px;
-    height: 3rem;
-}
-
-
-.icon-eye {
-    right: 9px;
-}
-
-.icon, .form-conatainer input {
-    display: inline-block;
-} */
-
-
-
-
-
-
-
-
 .form-container1 {
     max-width: 800px;
 }
@@ -256,19 +233,66 @@ span {
     text-align: center;
 }
 
-/* .btn-tertiary {
-    width: 90%;
-    margin: 2rem 3rem;
-    text-align: center;
-} */
 
 .form-container1 .type:hover {
     background-color: rgb(251, 251, 255);
-    /* border-bottom: transparent; */
+ }
+
+ .label1 {
+     margin: 3rem 0;
+     padding-left: 2rem;
+ }
+
+ .input2 {
+    padding-left: 3rem;
+    margin-top: 4rem;
+ }
+
+ .form {
+     font-size: 2rem;
+     text-transform: uppercase;
+ }
+
+ .pan {
+     text-transform: capitalize;
+ }
+
+ .level {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffff;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    color: black;
+    font-size: 2rem;
+ }
+
+ .level:hover {
+    background-color: rgb(251, 251, 255);
+ }
+
+ .level:active {
+    background-color: rgb(202, 199, 199);
+ }
+
+ ul li {
+     list-style-type: none;
+ }
+
+ li, .level {
+     float: left;
+     /* width: 100%; */
  }
 
 .clearfix::after {
     clear: both;
     display: block;
     content: "";
+}
+
+
+
+@media only screen and (max-width 425px) {
+    
 }
