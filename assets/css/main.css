@@ -326,6 +326,7 @@ span {
      font-size: 2rem;
      text-transform: uppercase;
      padding-top: 3rem;
+     padding-left: 4rem;
  }
 
 .clearfix::after {
