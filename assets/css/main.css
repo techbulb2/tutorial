@@ -9,12 +9,17 @@ html {
 body {
     box-sizing: border-box;
     margin: 0;
+    background-image: url("../images/img1.jpeg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .form-container, .form-container1 {
     max-width: 40%;
     margin: 10rem auto;
-    box-shadow:  0 .1rem .5rem 0 rgba(0,0,0,0.5);
+    box-shadow:  .1rem .2rem .5rem .2rem rgba(0,0,0,0.5);
     padding: 2rem;
     padding-bottom: 4rem;
     border-radius: 1rem;
