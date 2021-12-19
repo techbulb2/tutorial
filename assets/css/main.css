@@ -360,6 +360,15 @@ span {
     width: 30%;
  }
 
+ .none {
+     background-image: none;
+     background-color: rgb(251, 251, 255);
+ }
+
+ /* .form-container2 {
+    background-color: rgb(251, 251, 255);
+ } */
+
 .clearfix::after {
     clear: both;
     display: block;
