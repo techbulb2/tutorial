@@ -23,7 +23,7 @@ body {
     padding: 2rem;
     padding-bottom: 4rem;
     border-radius: 1rem;
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.801);
 }
 
 form {
@@ -332,6 +332,32 @@ span {
      text-transform: uppercase;
      padding-top: 3rem;
      padding-left: 4rem;
+ }
+
+ .quiz {
+     text-align: center;
+     font-size: 4rem;
+     text-transform: capitalize;
+ }
+
+ .form-acc, .acc-name {
+     float: left;
+     /* width: 50%; */
+     padding-left: 2rem;
+     padding-bottom: 3rem;
+ }
+
+ .code {
+    font-size: 2rem;
+    text-transform: capitalize;
+ }
+
+ .form-acc {
+     width: 70%;
+ }
+
+ .acc-name {
+    width: 30%;
  }
 
 .clearfix::after {
