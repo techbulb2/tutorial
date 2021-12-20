@@ -158,9 +158,9 @@ form {
 
 
 
-.anchor1:hover {
+/* .anchor1:hover {
     background-color: rgb(251, 251, 255);
-}
+} */
 
 
 
@@ -336,14 +336,14 @@ span {
 
  .quiz {
      text-align: center;
-     font-size: 4rem;
+     font-size: 5rem;
      text-transform: capitalize;
  }
 
  .form-acc, .acc-name {
      float: left;
      /* width: 50%; */
-     padding-left: 2rem;
+     /* padding-left: 2rem; */
      padding-bottom: 3rem;
  }
 
@@ -354,10 +354,13 @@ span {
 
  .form-acc {
      width: 70%;
+
+    padding-left: 30rem;
  }
 
  .acc-name {
     width: 30%;
+    padding-left: 1rem;
  }
 
  .none {
@@ -365,9 +368,14 @@ span {
      background-color: rgb(251, 251, 255);
  }
 
- /* .form-container2 {
-    background-color: rgb(251, 251, 255);
- } */
+ .para1 {
+     
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    max-width: 1200rem;
+    padding-left: 30rem;
+ }
+
 
 .clearfix::after {
     clear: both;
@@ -378,6 +386,10 @@ span {
 
 
 @media only screen and (max-width: 425px) {
+    .sign {
+        padding-right: 0;
+    }
+
 
     .form-container, .form-container1 {
         max-width: 100%;
@@ -455,6 +467,10 @@ span {
         padding: 1rem 14.5rem;
     }
 
+    .anchor {
+        padding: 1rem 2rem;
+    }
+
     .form {
         font-size: 1.8rem;
     }
@@ -462,8 +478,6 @@ span {
     span {
         font-size: 1.6rem;
         padding-right: 2rem;
-        /* font-weight: lighter; */
-        /* margin-bottom: 2rem; */
     }
 
     .input2 {
@@ -476,7 +490,6 @@ span {
     }
 
     ul {
-        /* width: 30%; */
         padding-left: 0;
     }
 
@@ -487,6 +500,24 @@ span {
 
     .select {
         font-size: 2rem;
+    }
+
+    .para1 {
+        max-width: 600rem;
+        padding-left: 0;
+     }
+
+     
+    .form-acc {
+        padding-left: 2rem;
+        width: 60%;
+    
+    }
+
+    
+    .acc-name {
+        width: 40%;
+        padding-left: 1rem;
     }
 
     
