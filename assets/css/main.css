@@ -1,3 +1,8 @@
+:root {
+    --space: 2rem;
+}
+
+
 * {
     box-sizing: inherit;
 }
@@ -340,19 +345,52 @@ span {
      text-transform: capitalize;
  }
 
+
+ .row {
+    max-width: 1500px;
+    margin:  var(--space, 4rem) auto;
+}
+
+[class ^= "col-"]{ 
+    float: left;
+}
+
+
+[class ^= "col-"]:not(:last-child) {
+    margin-right: var(--space);
+}
+
+.col-2-of-4 {
+    width: calc( 2 * (100% - var(--space)) / 4);
+}
+
+.second-container {
+    padding-left: 9rem;
+}
+
+.second1 {
+
+}
+
+
+.course {
+    padding-left: 29rem;
+}
+
+/* 
  .form-acc, .acc-name {
      float: left;
      /* width: 50%; */
-     /* padding-left: 2rem; */
+     /* padding-left: 2rem; 
      padding-bottom: 3rem;
- }
+ } */
 
  .code {
     font-size: 2rem;
     text-transform: capitalize;
  }
 
- .form-acc {
+ /* .form-acc {
      width: 70%;
 
     padding-left: 31rem;
@@ -361,7 +399,7 @@ span {
  .acc-name {
     width: 30%;
     padding-left: 1rem;
- }
+ } */
 
  .none {
      background-image: none;
@@ -377,23 +415,23 @@ span {
  }
 
  .answer {
-     text-align: center;
+     /* text-align: center; */
      color: blue;
      /* padding-top: 2rem; */
  }
  
  .all {
-     padding-right: 8rem;
+     /* padding-right: 8rem; */
      font-size: 2rem;
  }
 
  .all1 {
-     padding-right: 16rem;
+     /* padding-right: 16rem; */
      font-size: 2rem;
  }
 
  .ion {
-     padding-right: 47rem;
+     /* padding-right: 47rem; */
      color: black;
      text-transform: uppercase;
      font-weight: bold;
@@ -419,6 +457,13 @@ span {
      font-weight: bold;
      font-size: 2.5rem;
  }
+
+.instructions {
+    max-width: 750px;
+    text-align: left;
+    margin: 0 auto;
+}
+
 
  .form-left, .form-right {
      float: left;
