@@ -368,10 +368,6 @@ span {
     padding-left: 9rem;
 }
 
-.second1 {
-
-}
-
 
 .course {
     padding-left: 29rem;
@@ -481,12 +477,12 @@ span {
      text-align: right;
  }
 
- .para-left, .para-right {
+ /* .para-left, .para-right {
      float: left;
      width: 50%;
- }
+ } */
 
- .para-left {
+ /* .para-left {
      padding-left: 10rem;
  }
 
@@ -497,11 +493,15 @@ span {
  .yes1 {
      margin-top: 5rem;
      margin-bottom: 3rem;
- }
+ } */
 
  .sure {
      text-align: center;
      font-size: 2.5rem;
+ }
+
+ .name1 {
+     padding-left: 11rem;
  }
 
  .yes {
