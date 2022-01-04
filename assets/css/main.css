@@ -355,7 +355,7 @@ span {
  .form-acc {
      width: 70%;
 
-    padding-left: 30rem;
+    padding-left: 31rem;
  }
 
  .acc-name {
@@ -370,10 +370,119 @@ span {
 
  .para1 {
      
-    margin-top: 6rem;
+    margin-top: 8rem;
     margin-bottom: 5rem;
-    max-width: 1200rem;
-    padding-left: 30rem;
+    /* max-width: 1200rem; */
+    padding-left: 29rem;
+ }
+
+ .answer {
+     text-align: center;
+     color: blue;
+     /* padding-top: 2rem; */
+ }
+ 
+ .all {
+     padding-right: 8rem;
+     font-size: 2rem;
+ }
+
+ .all1 {
+     padding-right: 16rem;
+     font-size: 2rem;
+ }
+
+ .ion {
+     padding-right: 47rem;
+     color: black;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 3rem;
+ }
+
+ .anc {
+     padding: 1.5rem 37rem;
+ }
+
+ .image-container {
+     width: 100%;
+ }
+
+ img {
+     width: 20rem;
+     height: 20rem;
+     display: block;
+ }
+
+ .color {
+     /* color: gold; */
+     font-weight: bold;
+     font-size: 2.5rem;
+ }
+
+ .form-left, .form-right {
+     float: left;
+     /* width: 50%; */
+ }
+
+ .form-left {
+     /* padding-left: 1rem; */
+     width: 60%;
+ }
+
+ .form-right {
+     width: 40%;
+     padding-left: rem;
+     text-align: right;
+ }
+
+ .para-left, .para-right {
+     float: left;
+     width: 50%;
+ }
+
+ .para-left {
+     padding-left: 10rem;
+ }
+
+ .para-right {
+     padding-left: 3rem;
+ }
+
+ .yes1 {
+     margin-top: 5rem;
+     margin-bottom: 3rem;
+ }
+
+ .sure {
+     text-align: center;
+     font-size: 2.5rem;
+ }
+
+ .yes {
+     font-size: 2rem;
+     text-decoration: none;
+     list-style-type: none;
+     text-transform: uppercase;
+     background-color: forestgreen;
+     padding: 1.5rem 5rem;
+     color: whitesmoke;
+     border-radius: 1.5rem;
+ }
+
+ .code1 {
+     font-size: 2.5rem;
+     color: blue;
+     font-weight: bold;
+ }
+
+ .one {
+     padding-left: 2rem;
+ }
+
+ .question-left, .ques {
+    float: left;
+    width: 50%;
  }
 
 
