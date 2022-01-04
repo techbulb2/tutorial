@@ -373,70 +373,40 @@ span {
     padding-left: 29rem;
 }
 
-/* 
- .form-acc, .acc-name {
-     float: left;
-     /* width: 50%; */
-     /* padding-left: 2rem; 
-     padding-bottom: 3rem;
- } */
+
 
  .code {
     font-size: 2rem;
     text-transform: capitalize;
  }
 
- /* .form-acc {
-     width: 70%;
-
-    padding-left: 31rem;
- }
-
- .acc-name {
-    width: 30%;
-    padding-left: 1rem;
- } */
-
+ 
  .none {
      background-image: none;
      background-color: rgb(251, 251, 255);
  }
 
  .para1 {
-     
-    margin-top: 8rem;
-    margin-bottom: 5rem;
-    /* max-width: 1200rem; */
-    padding-left: 29rem;
+    max-width: 800px;
+    margin: 8rem auto;
+    
  }
 
  .answer {
-     /* text-align: center; */
      color: blue;
-     /* padding-top: 2rem; */
  }
  
  .all {
-     /* padding-right: 8rem; */
-     font-size: 2rem;
- }
-
- .all1 {
-     /* padding-right: 16rem; */
      font-size: 2rem;
  }
 
  .ion {
-     /* padding-right: 47rem; */
      color: black;
      text-transform: uppercase;
      font-weight: bold;
      font-size: 3rem;
  }
 
- .anc {
-     padding: 1.5rem 37rem;
- }
 
  .image-container {
      width: 100%;
@@ -477,23 +447,7 @@ span {
      text-align: right;
  }
 
- /* .para-left, .para-right {
-     float: left;
-     width: 50%;
- } */
-
- /* .para-left {
-     padding-left: 10rem;
- }
-
- .para-right {
-     padding-left: 3rem;
- }
-
- .yes1 {
-     margin-top: 5rem;
-     margin-bottom: 3rem;
- } */
+ 
 
  .sure {
      text-align: center;
@@ -705,6 +659,40 @@ span {
         width: 40%;
         padding-left: 1rem;
     }
+
+    .course, .second-container {
+        padding-left: 4rem;
+        /* text-align: center; */
+    }
+
+    .code {
+        font-size: 2.3rem;
+    }
+
+    .color {
+        font-size: 2.5rem;
+    }
+
+    .instructions {
+        padding-left: 4rem;
+    }
+
+    .ion {
+        font-size: 4rem;
+    }
+
+    .all {
+        font-size: 3rem;
+    }
+
+    .col-2-of-4 {
+        width: calc(100%);
+    }
+
+    /* .anc {
+        padding: 1.5rem 20rem;
+    } */
+
 
     
 }
